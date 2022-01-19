@@ -11,7 +11,7 @@ public class arithmaticCalculator {
 		int num1=s.nextInt();
 		int num2=s.nextInt();
 		
-		System.out.println("enter your choice: (+,-,*,/,%)");
+		System.out.println("enter your choice: (+,-,*,/)");
 		
 		char op=s.next().charAt(0);
 		
@@ -32,13 +32,6 @@ public class arithmaticCalculator {
 			System.out.println("division of two numbers is " +(num1/num2));
 			}
 			break;
-		case '%':
-			if(num2==0) {
-				System.out.println("invalid division");
-			}else {
-			System.out.println("remainder of two numbers is " +(num1%num2));
-			}
-			break;
 			default:
 				System.out.println("invalid");
 			
@@ -49,4 +42,3 @@ public class arithmaticCalculator {
 	}
 
 }
-// abc
