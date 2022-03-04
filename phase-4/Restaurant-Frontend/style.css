@@ -1,0 +1,16 @@
+body {
+   background-color: gray;
+   color: black;
+ }
+
+ nav {
+   background-color: aqua;
+   color: black;
+ }
+
+ .page-footer {
+   background-color: aquamarine;
+ }
+ h5{
+   color: red;
+ }
